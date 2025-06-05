@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h2>Currency Convrter</h2>
+            <input type="number" id="amount" placeholder="Enter Amount">
+
+            <div class="dropdowns">
+                <select id="fromCurrency">
+                    <option value="USD">USD</option>
+                    <option value="INR">INR</option>
+                    <option value="EUR">EUR</option>
+                    <option value="GBp">GBP</option>
+                </select>
+                <span>to</span>
+                <select id="toCurrency">
+                    <option value="USD">USD</option>
+                    <option value="INR">INR</option>
+                    <option value="EUR">EUR</option>
+                    <option value="GBP">GBP</option>
+                </select>
+            </div>
+
+            <button onclick="currentCurrency()">Convert</button>
+            <div id="result"></div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
