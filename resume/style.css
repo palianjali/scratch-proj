@@ -90,6 +90,28 @@ section .cert{
 section .edu{
     display: flex;
     justify-content: space-between;
-    
-    
 }
+.email-hover{
+          position: relative;
+        display: inline-block;
+
+}
+.popup-name{
+     position: absolute;
+        top: 120%;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #d6d0d0;
+        padding: 6px 12px;
+        border-radius: 5px;
+        color: transparent;
+        opacity: 0;
+        transition: opacity 0.4s ease, color 0.4s ease;
+        white-space: nowrap;
+        font-size: 16px;
+}
+    .email-hover:hover .popup-name {
+        opacity: 1;
+        color: #00ffe1;
+        /* Light teal color */
+    }

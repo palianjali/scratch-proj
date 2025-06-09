@@ -24,3 +24,6 @@ headings.forEach((heading) => {
     heading.style.color = 'black'; // optional
   });
 });
+
+
+
